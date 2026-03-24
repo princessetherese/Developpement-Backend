@@ -10,7 +10,9 @@ Gestion des articles (CRUD)
 Pagination et filtrage par catégorie et date
 Documentation avec Swagger
 Test via Postman
+
 2. Technologies utilisées
+   
 Node.js v24+
 Express v5+
 MySQL / mysql2
@@ -18,7 +20,9 @@ JWT pour sécuriser les routes
 bcryptjs pour le hash des mots de passe
 Swagger pour la documentation
 Nodemon pour le développement
+
 3. Installation et configuration sur VS Code
+ 
 a) Cloner le projet
 git clone <lien-du-repo>
 cd blog_api
@@ -56,6 +60,7 @@ Dans VS Code, ouvrir un terminal intégré et exécuter :
 npm run dev
 Serveur : http://localhost:3000
 Swagger : http://localhost:3000/api-docs
+
 5. Architecture du projet
 blog_api/
 │
@@ -71,6 +76,7 @@ blog_api/
 ├─ models/
 │   └─ db.js            # Connexion MySQL
 └─ swagger.js           # Swagger configuration
+
 6. Description des routes
 a) Authentification
 Route	Méthode	Description	Body JSON
